@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Spark Education</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="shortcut icon" href="./icon/favicon/favicon.ico" type="image/x-icon">
+  </head>
+  <body>
+    <div class="main-hero">
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+              <i class="fas fa-bars"></i>
+            </label>
+            <p class="logo"><span class="logo-span">SPARK</span><span class="logo-span-2">edu</span></p>
+            <ul>
+              <li><a class="active" href="#">Home</a></li>
+              <li><a href="#program">Program</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+          
+          <div class="hero-container">
+             <div class="hero-left-container reveal move-left">
+                <p class="hero-pre-title"><span class="hero-span">SPARK Education</span> telah meluncurkan...</p>
+                <h1 class="hero-h1">Future Stars Class</h1>
+                <p class="hero-p">
+                    Bergabunglah untuk pengalaman belajar yang menginspirasi dan menyenangkan. Temukan pendidikan yang menyenangkan dan mendalam yang mempersiapkan mereka untuk masa depan yang gemilang! Klik link di bawah ini dan raih prestasi!
+                </p>
+                <button onclick="window.alert('Oppps Halaman ini belum dapat di muat :>')" type="submit" class="hero-button">Bergabung</button>
+             </div>
+        </div>    
+    </div>
+
+
+
+    <section>
+        <div class="container program" id="program">
+            <h1 class="program-h1 reveal">Program Kelas</h1>
+            <div class="program-row">
+                <div class="program-box one reveal">
+                    <div class="program-img">
+                        <img src="./icon/e-learning.svg" width="25%" alt="" srcset="">
+                    </div>
+                    <h3>Explorasi Sains Kreatif</h3>
+                    <p>
+                        Program eksperimental yang memperkenalkan sains melalui eksperimen menarik, membangkitkan minat siswa dalam pemahaman konsep sains secara praktis dan interaktif.
+                    </p>
+                </div>
+                <div class="program-box two reveal">
+                    <div class="program-img">
+                        <img src="./icon/users-medical.svg" width="25%"  alt="" srcset="">
+                    </div>
+                    <h3>Writing Wizards Workshop</h3>
+                    <p>
+                        Program menulis yang mengasah keterampilan siswa dalam menulis kreatif dan akademis, memperluas kemampuan mereka dari cerita hingga tugas-tugas penulisan yang lebih mendalam.
+                    </p>
+                </div>
+                <div class="program-box three reveal">
+                    <div class="program-img">
+                        <img src="./icon/lightbulb-on.svg" width="25%" alt="" srcset="">
+                    </div>
+                    <h3>Math Maestros Mastery</h3>
+                    <p>
+                        Program matematika yang menyenangkan dengan metode pembelajaran interaktif, membantu siswa menguasai konsep matematika dan memecahkan berbagai masalah matematika dengan percaya diri.
+                    </p>
+                </div>
+                </div>
+    </section>
+       
+        
+    <section>
+        <div class="container about" id="about">
+            <div class="about-box reveal"> <!--animasi-->
+                <h2 class="about-h2">Tentang</h2>
+                <p>
+                    Spark Edu adalah pangkalan pengetahuan yang menginspirasi. Kami membangun lingkungan belajar yang memicu semangat dan kreativitas dalam setiap siswa. Dengan pendekatan yang inovatif dan peduli, kami membantu siswa mengembangkan potensi penuh mereka dalam belajar. Kami percaya setiap anak memiliki kemampuan yang unik, dan di Spark Edu, kami berkomitmen untuk membimbing mereka menuju kesuksesan akademis dan pribadi. Bergabunglah dengan kami dan temukan percikan kecerdasan Anda
+                </p>
+            </div>
+            <div class="about-box-right">
+            </div>
+        </div>
+    </section>
+
+
+    <section>
+        <div class="container awards">
+            <h1 class="awards-h1 reveal">Awards</h1>
+            <div class="awards-container">
+                <div class="awards-box reveal one">
+                    <i class="fa-solid fa-award"></i>
+                    <h2>Pendidikan Unggul Terbaik 2023</h2>
+                    <p>Diberikan oleh Asosiasi Pendidikan Nasional atas dedikasi dan inovasi dalam meningkatkan mutu pendidikan serta kontribusi yang signifikan terhadap perkembangan siswa</p>
+                </div>
+                <div class="awards-box reveal two">
+                    <i class="fa-solid fa-award"></i>
+                    <h2>Bimbingan Belajar Terbaik 2021</h2>
+                    <p>Diberikan oleh Forum Pendidikan Regional atas keunggulan dalam pendekatan pembelajaran, kualitas pengajaran, dan dampak positif pada kemajuan akademis siswa.</p>
+                </div>
+                <div class="awards-box reveal three">
+                    <i class="fa-solid fa-award"></i>
+                    <h2>Inovasi Pendidikan 2023</h2>
+                    <p> Diberikan oleh Pemerintah Daerah atas kontribusi dalam memberikan layanan bimbingan belajar kepada komunitas dengan dampak positif yang terlihat dalam peningkatan prestasi belajar siswa.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section>
+        <div class="contact" id="contact">
+            <div class="contact-left img"></div>
+            <div class="contact-right form">
+                <h2 class="contact-h2 reveal">Contact Us</h2>
+                <form action="submit.php" method="post" class="reveal">
+                    <div class="form-group">
+                        <label for="name">Nama:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Nomor Handphone:</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Pesan:</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-button">Submit</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-top">
+            <div class="footer-box-left">
+               <div class="footer-left-box">
+                    <img src="./icon/logo.png" alt="" width=10%>
+                    <p>Bimbingan belajar inspiratif dengan pendekatan inovatif. Membantu siswa mengembangkan potensi melalui pembelajaran interaktif untuk sukses akademis.</p>
+                    <br>
+                    <p style="font-size: 12px;"><i class="fa-solid fa-location-dot" style="color: #ffffff;font-size: 16px;"></i> Jl. H. Adam Malik No.12, Kepanjen, Kec. Jombang, Kabupaten Jombang, Jawa Timur</p>
+                    <p style="font-size: 12px;"><i class="fa-solid fa-phone" style="color: #ffffff;font-size: 16px;"></i> 0812-5978-7239</p>
+
+               </div>
+            </div>
+            <div class="footer-box-right">
+                <h3 class="footer-h3">Menu A</h3>
+                <div class="footer-col-container">
+                    <div class="footer-col">
+                        <h4 class="footer-col-h3">Tentang Kami</h4>
+                        <a href="" class="footer-menu">Sejarah</a>
+                        <a href="" class="footer-menu">Tujuan</a>
+                        <a href="" class="footer-menu">Visi dan Misi</a>
+                        <a href="" class="footer-menu">Target</a>
+                    </div>
+                    <div class="footer-col">
+                        <h4 class="footer-col-h3">Program Kami</h4>
+                        <a href="" class="footer-menu">SmartC</a>
+                        <a href="" class="footer-menu">SFF Clas</a>
+                        <a href="" class="footer-menu">YorEdu</a>
+                        <a href="" class="footer-menu">Top Rank</a>
+                    </div>
+                    <div class="footer-col">
+                        <h4 class="footer-col-h3">Pendaftaran</h4>
+                        <a href="" class="footer-menu">Whatsaap 1</a>
+                        <a href="" class="footer-menu">Whatsaap 2</a>
+                        <a href="" class="footer-menu">Email 1</a>
+                        <a href="" class="footer-menu">Email 2</a>
+                    </div>
+                    <div class="footer-col">
+                        <h4 class="footer-col-h3">Berita dan Blog</h4>
+                        <a href="" class="footer-menu">Spark.News</a>
+                        <a href="" class="footer-menu">eduroom</a>
+                        <a href="" class="footer-menu">vividedu</a>
+                        <a href="" class="footer-menu">wwwedu</a>
+                    </div>
+                </div>
+                <div class="footer-col-container">
+                    <div class="socmed-container">
+                        <h3>Find Us On:</h3>
+                        <div class="social-media">
+                            <a href="" class="footer-icon">
+                                <i class="fa-brands fa-youtube"></i>
+                            </a>
+                            <a href="" class="footer-icon">
+                                <i class="fa-brands fa-facebook"></i>
+                            </a>
+                            <a href="" class="footer-icon">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                            <a href="" class="footer-icon">
+                                <i class="fa-brands fa-twitter"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="footer-bottom-information">
+                <a href="" style="color: #ffffff;">Spark.com</a>
+                <p>&copy;Tim Spark, All Right Reversed.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./script.js"></script>
+
+  </body>
+</html>
